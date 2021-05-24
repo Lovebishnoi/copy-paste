@@ -14,15 +14,15 @@ var cars, car1, car2, car3, car4;
 var i, track, car1_img, car2_img, car3_img, car4_img;
 
 function preload(){
-  f2 = loadImage("/f1.png");
-s=loadSound("/sliding.mp3")
+  f2 = loadImage("f1.png");
+s=loadSound("sliding.mp3")
 
-  track = loadImage("/track.jpg");
-  car1_img = loadImage("/car1.png");
-  car2_img = loadImage("/car2.png");
-  car3_img = loadImage("/car3.png");
-  car4_img = loadImage("/car4.png");
-  ground = loadImage("/ground.png");
+  track = loadImage("track.jpg");
+  car1_img = loadImage("car1.png");
+  car2_img = loadImage("car2.png");
+  car3_img = loadImage("car3.png");
+  car4_img = loadImage("car4.png");
+  ground = loadImage("ground.png");
 }
 
 function setup(){
